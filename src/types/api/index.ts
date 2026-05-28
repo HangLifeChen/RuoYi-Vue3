@@ -16,7 +16,7 @@ export * from "./system/post";
 export * from "./system/dict";
 export * from "./system/config";
 export * from "./system/notice";
-
+export * from "./system/nursing";
 // monitor 模块
 export * from "./monitor/cache";
 export * from "./monitor/job";
@@ -27,3 +27,4 @@ export * from "./monitor/online";
 
 // 代码生成模块
 export * from "./tool/gen";
+
