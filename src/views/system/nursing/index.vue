@@ -177,7 +177,7 @@
 <script setup lang="ts" name="Nursing">
 import type { NursingProject, NursingQueryParams } from "@/types/api/system/nursing"
 import { listNursing, getNursing, delNursing, addNursing, updateNursing } from "@/api/system/nursing"
-import NursingViewDrawer from "./view"
+import NursingViewDrawer from "./view.vue"
 
 const { proxy } = getCurrentInstance()
 
